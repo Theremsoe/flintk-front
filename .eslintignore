@@ -1,0 +1,9 @@
+.vs_code
+node_modules
+public
+resources
+jest.config.js
+tsconfig.json
+tailwind.config.js
+package.json
+@types

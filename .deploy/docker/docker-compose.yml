@@ -1,0 +1,11 @@
+version: "3.8"
+services:
+    proxy:
+        container_name: Flink-front
+        build:
+            context: ../..
+            dockerfile: .deploy/docker/dockerfiles/dockerfile
+        networks:
+            - network
+        ports:
+            - 80:80
